@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './banner.css';
-import { API_KEY, imgUrl } from '../../constants/constants';
+import { API_KEY, IMG_URL } from '../../constants/constants';
 import axios from '../../tmdbAxios';
 
 function Banner() {
@@ -17,7 +17,7 @@ function Banner() {
     }, [])
     
     return (
-        <div className='banner' style={{backgroundImage: `url(${movies ? imgUrl+movies[selector].backdrop_path: ""})`}}>
+        <div className='banner' style={{backgroundImage: `url(${movies ? IMG_URL+movies[selector].backdrop_path: ""})`}}>
             <div className='content'>
                 <h1 className='title'>{movies ? movies[selector].title : ""}</h1>
                 <div className='banner_buttons' style={{paddingBottom: '10px',paddingTop: '6px'}}>
