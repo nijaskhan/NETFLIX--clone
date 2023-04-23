@@ -2,8 +2,9 @@
 
 Developed this Netflix clone web Application utilizing React.js and CSS media query properties for responsiveness.
 
-scrrenshot of the netflix-clone Project : 
+screenshot of the NETFLIX-clone Project : 
 
+![netflix-clone](https://user-images.githubusercontent.com/92925838/233827293-f0ab45bf-5895-4a64-af9a-168005d45ba7.png)
 
 
 
