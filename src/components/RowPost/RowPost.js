@@ -22,10 +22,8 @@ function RowPost(props) {
         }
     }
     const handletrailer=(id)=>{
-        console.log(id);
         axios.get(`movie/${id}/videos?api_key=${API_KEY}&language=en-US`)
         .then((response)=>{
-            console.log(response.data.results);
             setMovieId(response.data.results[0]);
         })
     }
