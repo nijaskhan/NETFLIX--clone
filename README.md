@@ -1,4 +1,13 @@
-# Getting Started with Create React App
+# Netflix -Clone => ReactJS
+
+Developed this Netflix clone web Application utilizing React.js and CSS media query properties for responsiveness.
+
+scrrenshot of the netflix-clone Project : 
+
+
+
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
