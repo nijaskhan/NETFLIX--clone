@@ -17,9 +17,11 @@
 .poster{
     max-height: 235px;
     margin-right: 10px;
+    cursor: pointer;
 }
 
 .smallPoster {
     max-height: 135px;
     margin-right: 10px;
+    cursor: pointer;
 }
