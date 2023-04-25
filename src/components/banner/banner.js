@@ -13,7 +13,6 @@ function Banner() {
       axios.get(`trending/all/day?api_key=${API_KEY}`)
       .then((response)=>{
         setMovie(response.data.results);
-        console.log(response.data.results);
         const MovieCount = response.data.results.length;
         setSelector(Math.floor(Math.random() * parseInt(MovieCount)) + 1);
       })
