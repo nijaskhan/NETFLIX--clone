@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar/>
+      <Navbar />
       <Banner />
       <RowPost title="originals" url={ORIGINALS_URL} />
       <RowPost  title="Action" isSmall url={ACTION_URL} />
