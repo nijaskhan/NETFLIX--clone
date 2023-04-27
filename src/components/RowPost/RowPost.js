@@ -18,7 +18,7 @@ function RowPost(props) {
         height: '390',
         width: '100%',
         playerVars: {
-          autoplay: 1,
+            autoplay: 1,
         }
     }
     const handletrailer=(id)=>{

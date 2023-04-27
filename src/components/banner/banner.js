@@ -10,18 +10,18 @@ function Banner() {
     const [movieId, setMovieId] = useState();
 
     useEffect(() => {
-      axios.get(`trending/all/day?api_key=${API_KEY}`)
-      .then((response)=>{
-        setMovie(response.data.results);
-        const MovieCount = response.data.results.length;
-        setSelector(Math.floor(Math.random() * parseInt(MovieCount)) + 1);
-      })
+        axios.get(`trending/all/day?api_key=${API_KEY}`)
+        .then((response)=>{
+            setMovie(response.data.results);
+            const MovieCount = response.data.results.length;
+            setSelector(Math.floor(Math.random() * parseInt(MovieCount)) + 1);
+        })
     }, [])
     const opts = {
         height: '390',
         width: '100%',
         playerVars: {
-          autoplay: 1,
+            autoplay: 1,
         }
     }
     const handletrailer=(id)=>{
