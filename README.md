@@ -2,7 +2,7 @@
 
 Developed this Netflix clone web Application utilizing React.js and CSS media query properties for responsiveness.
 
-live project can be accessed at : https://netflix-clone-1pe3.vercel.app/
+<h2>Live project can be accessed at : https://netflix-clone-1pe3.vercel.app/ </h2>
 
 screenshot of the NETFLIX-clone Project : 
 
